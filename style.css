@@ -1,0 +1,117 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poltawski+Nowy:ital@1&family=Poppins:wght@200&family=Reem+Kufi:wght@600&family=Roboto+Slab:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poltawski+Nowy:ital@1&family=Poppins:wght@200&family=Reem+Kufi:wght@600&family=Roboto+Slab:wght@300&family=Salsa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    background-color: white;
+    padding: 0px 5%;
+}
+.LA{
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-link{
+    display: flex;
+    gap: 10px;
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #84cadb;
+    width: 50%;
+    height: 100%;
+    gap: 64px;
+    padding: 40px 248px 5px 40px;
+}
+.right-1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+   
+}
+.para{
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Salsa', cursive;
+
+}
+.button{
+     width: 125px;
+     background-color: black;
+     border: none;
+     color: white;
+     height: 30px;
+     border-radius: 5px;
+}
+.fashion{
+    width: 300px;
+}
+.section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 226, 226);
+    width: 100%;
+}
+.what{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 44px;
+   padding: 42px 110px;
+   gap: 20px;
+}
+.what1{
+    font-family: 'Salsa', cursive;
+
+}
+.lorem{
+    text-align: center;
+}
+.pmg{
+    width: 100%;
+}
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-between;
+}
+.box{
+    width: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+.product-img{
+    background-color: #84cadb;
+    width: 100%;
+    height: 200px;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    text-align: center;
+}
